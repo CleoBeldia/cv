@@ -17,8 +17,8 @@
     
     <h1 >
         BERREHAIL Cléo
-        <img src=profile.png id="moi">
-        <ul id="navigation">Cirruculum Vitae :
+        <img src=profile.png id="moi" alt="photo représentative">
+        <p>Cirruculum Vitae :
 
             <li><a href="#top" title="aller à la section information général">Informations générales</a></li>
             <li><a href="#top2" title="aller à Parcours académique">Parcours académique</a></li>
@@ -26,24 +26,24 @@
             <li><a href="#top4" title="aller à Compétence informatique">Compétences informatique</a></li>
             <li><a href="#top5" title="aller à Langues">Langues</a></li>
             <li><a href="#top6" title="aller à Autres Activités">Autres Activités</a></li>
-          </ul>
+        </p>
     </h1>
 
 
 
     <div class="oui" >
-        <a name="top"></a>
+        <a id="top"></a>
         <h2>Informations générales</h2>
-        <p>
+        
         <p><span>Nom :</span> BERREHAIL Cléo</p>
         <p><span>Date de naissance </span> : 19/04/1997</p>
         <p><span>Ville </span> : Talence</p>
         <input type="button" value="M'envoyer un e-mail" onclick="document.location.href='mailto:cleo.berrehail@etu-u.bordeaux.fr'">
-        </p>
+        
     </div>
 
     <div class="non">
-        <a name="top2"></a>
+        <a id="top2"></a>
         <h2>Parcours académique</h2>
         <p><span>2015 </span> : Bac Scientifique - Académie de la Réunion</p>
 
@@ -52,7 +52,7 @@
     </div>
 
     <div class="oui">
-        <a name="top3"></a>
+        <a id="top3"></a>
         <h2>Expérience professionelle</h2>
         <p></p>
         <ul>
@@ -64,7 +64,7 @@
     </div>
 
     <div class="non">
-        <a name="top4"></a>
+        <a id="top4"></a>
         <h2>Compétences informatiques (langages, logiciels, gestionnaires)</h2>
             <ul>
                 <li>Python</li>
@@ -79,27 +79,28 @@
     </div>
 
     <div class="oui">
-        <a name="top5"></a>
+        <a id="top5"></a>
         <h2>Langues</h2>
         <ul>
 
             <li>Espagnol : parlé (niveau moyen)
-                <img src="esp.jpeg" class="drapeau">
+                <img src="esp.jpeg" class="drapeau" alt="photo du drapeau espagnol">
             </li>
             <li>Anglais : lu et parlé (niveau bon)
-                <img src="ang.jpg" class="drapeau">
+                <img src="ang.jpg" class="drapeau" alt="photo du drapeau anglais">
             </li>
         </ul>
     </div>
 
     <div class="non">
-        <a name="top6"></a>
+        <a id="top6"></a>
         <h2>Autres Activités</h2>
         <ul>
             <li>Sport : Natation, Badminton</li>
             <li>Voyages : Ile de la Réunion, Guyane, Tunisie, Angleterre, Belgique, Ile Maurice</li>
         </ul>
     </div>
+    <a href="javascript:window.print()"><button>Imprimer mon CV</button></a>
 
     
 </body>
