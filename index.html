@@ -6,38 +6,98 @@
     <meta charset="utf-8" />
     <meta name="description" content="Une page web" />
     <meta name="keywords" content="cours, HTML , Web" />
-    <meta name="Berrehail Cléo" content="Joe Doe" />
+    <meta name="Berrehail Cléo" content="Cléo CV" />
     <link rel="stylesheet" href="pagecv.css" />
 </head>
 
 <body>
+
     
    
     
     <h1 >
         BERREHAIL Cléo
-        <img src=einstein.jpg id="monsieur">
+        <img src=profile.png id="moi">
+        <ul id="navigation">Cirruculum Vitae :
+
+            <li><a href="#top" title="aller à la section information général">Informations générales</a></li>
+            <li><a href="#top2" title="aller à Parcours académique">Parcours académique</a></li>
+            <li><a href="#top3" title="aller à Expérience professionelle">Expérience professionelle</a></li>
+            <li><a href="#top4" title="aller à Compétence informatique">Compétences informatique</a></li>
+            <li><a href="#top5" title="aller à Langues">Langues</a></li>
+            <li><a href="#top6" title="aller à Autres Activités">Autres Activités</a></li>
+          </ul>
     </h1>
-    <div>
-        <h2>Informations générale</h2>
-        <p>BERREHAIL Cléo</p>
-        <p>19/04/1997</p>
-        <p> <a href="cleo.berrehail@etu.u-bordeaux.fr">cleo.berrehail@etu.u-bordeaux.fr</a> </p>
+
+
+
+    <div class="oui" >
+        <a name="top"></a>
+        <h2>Informations générales</h2>
+        <p>
+        <p><span>Nom :</span> BERREHAIL Cléo</p>
+        <p><span>Date de naissance </span> : 19/04/1997</p>
+        <p><span>Ville </span> : Talence</p>
+        <input type="button" value="M'envoyer un e-mail" onclick="document.location.href='mailto:cleo.berrehail@etu-u.bordeaux.fr'">
+        </p>
     </div>
 
-    <div>
-        <h2>Situation actuelle</h2>
-        <p>Etudiant M1 Bio-info</p>
-        <p>Ceci sera mon stage</p>
+    <div class="non">
+        <a name="top2"></a>
+        <h2>Parcours académique</h2>
+        <p><span>2015 </span> : Bac Scientifique - Académie de la Réunion</p>
+
+        <p><span>2015-2019 </span> : Licence de Biologie (parcours Ecosystémique) - Académie de Bordeaux</p>
+        <p><span>2019 - en cours </span> : <a href="https://www.u-bordeaux.fr/formation/2018/PRMA_74/bio-informatique"> Master Bioinformatique </a>(parcours Biologie Computationelle) - Académie de Bordeaux</p>
     </div>
 
-    <div>
-        <h2>Parcours universitaire</h2>
-        <p>Voici tout mon parcours :</p>
+    <div class="oui">
+        <a name="top3"></a>
+        <h2>Expérience professionelle</h2>
+        <p></p>
         <ul>
-            <li>Cela</li>
-            <li>Ceci</li>
-            <li>Et tout ça</li>
+            <li><span>2017 </span>: Colonie de vacances orientée vers un public adulte en situation d'handicap</li>
+            <li><span>Été 2018 </span> : Stage INRA : Rôle des cellules immunitaires dans la physiopathologie de l'Alzheimer</li>
+            <li><span>2018-2019 </span>: Animatrice scolaire dans une école maternelle</li>
+            
+        </ul>
+    </div>
+
+    <div class="non">
+        <a name="top4"></a>
+        <h2>Compétences informatiques (langages, logiciels, gestionnaires)</h2>
+            <ul>
+                <li>Python</li>
+                <li>Java</li>
+                <li>Javascript/CSS</li>
+                <li>HTML</li>
+            </ul>
+        
+            <p>bouton javascript et section qui peut afficher et disparaitre</p>
+
+        
+    </div>
+
+    <div class="oui">
+        <a name="top5"></a>
+        <h2>Langues</h2>
+        <ul>
+
+            <li>Espagnol : parlé (niveau moyen)
+                <img src="esp.jpeg" class="drapeau">
+            </li>
+            <li>Anglais : lu et parlé (niveau bon)
+                <img src="ang.jpg" class="drapeau">
+            </li>
+        </ul>
+    </div>
+
+    <div class="non">
+        <a name="top6"></a>
+        <h2>Autres Activités</h2>
+        <ul>
+            <li>Sport : Natation, Badminton</li>
+            <li>Voyages : Ile de la Réunion, Guyane, Tunisie, Angleterre, Belgique, Ile Maurice</li>
         </ul>
     </div>
 
